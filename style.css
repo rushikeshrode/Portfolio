@@ -412,22 +412,3 @@ footer p {
 
 /* -------------------views-------------- */
 
-body {
-    overflow-x: hidden;
-}
-@media (max-width: 768px) {
-    .your-class {
-        flex-direction: column;
-        text-align: center;
-        width: 100%;
-    }
-}
-img {
-    max-width: 100%;
-    height: auto;
-}
-.button {
-    width: auto;
-    padding: 10px;
-    font-size: 14px;
-}
