@@ -32,9 +32,9 @@ nav {
 }
 
 .navbarlinks {
-    gap: 2rem;
+    gap: 1.5rem;
     list-style: none;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 
@@ -52,7 +52,7 @@ a:hover {
 }
 
 .logo {
-    font-size: 2.6rem;
+    font-size: 2.5rem;
 }
 
 .logo:hover {
@@ -410,3 +410,13 @@ footer p {
 
 /* -------------------views-------------- */
 
+@media screen and (max-width: 768px) {
+    .aboutme {
+        grid-template-columns: 1fr; /* Stack skills in one column */
+    }
+
+    .article {
+        grid-template-columns: repeat(2, minmax(120px, 1fr)); /* Reduce to 2 columns */
+        gap: 1rem;
+    }
+}
